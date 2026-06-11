@@ -1,26 +1,26 @@
-# Python Melody Generator — Music21
+# Generatore Algoritmico di Melodie — Music21
 
-Algorithmic **melody composition** using the `music21` library — generate, manipulate, and export musical scores directly from Python.
+Composizione algoritmica di **melodie musicali** usando la libreria `music21` — genera, manipola ed esporta partiture direttamente da Python.
 
-## What it does
+## Cosa fa
 
-- Creates melodies programmatically using pitch, duration, and rhythm rules
-- Generates musical scores with proper notation (notes, rests, time signatures, key signatures)
-- Exports to **MusicXML**, **MIDI**, and **PDF** (via LilyPond/MuseScore)
-- Demonstrates music theory concepts: scales, intervals, chord progressions
-- Supports playback in Colab via audio synthesis
+- Generazione di note casuali o basate su regole musicali
+- Costruzione di scale, accordi e progressioni armoniche
+- Esportazione in formato MIDI e MusicXML
+- Visualizzazione della partitura con MuseScore (opzionale)
 
-## Tech stack
+## Come si usa
 
-- Python 3
-- `music21` — comprehensive music analysis and generation library
-- `matplotlib` — score visualization
-- MuseScore / LilyPond (optional, for PDF export)
+```bash
+pip install music21
+python melody_generator.py
+```
 
-## Usage
+## Tecnologie
 
-Open `notebook.ipynb` in Google Colab. Run all cells to generate and listen to the composed melodies. No musical background required.
+- `music21` — libreria di analisi e composizione musicale
+- Output: file MIDI e partiture MusicXML
 
-## Topics
+## Tag
 
-`python` `music21` `algorithmic-composition` `midi` `music-generation` `creative-coding`
+`python` `music21` `composizione-algoritmica` `midi` `generazione-musicale` `musica` `creative-coding`
